@@ -81,10 +81,6 @@ h3 {
   flex: 0.5;
 }
 
-a {
-  color: gray;
-}
-
 .button {
   display: flex;
   align-items: center;
@@ -151,5 +147,15 @@ a {
 }
 
 a {
-  color: #fff
+  color: transparent
+}
+
+a:hover {
+  color: transparent
+}
+
+#mc_embed_signup {
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+  width: 100%;
 }
