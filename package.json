@@ -6,18 +6,18 @@
   "scripts": {
     "start": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "image:build": "docker build . -t duluca/angularevergreen",
-    "image:run": "docker run -p 8080:80 duluca/angularevergreen",
-    "image:publish": "docker push duluca/angularevergreen"
+    "image:build": "docker build . -t expertlysimple/angularevergreen",
+    "image:run": "docker run -p 8080:80 expertlysimple/angularevergreen",
+    "image:publish": "docker push expertlysimple/angularevergreen"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/duluca/angularevergreen.com.git"
+    "url": "git+https://github.com/expertly-simple/angularevergreen.com.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/duluca/angularevergreen.com/issues"
+    "url": "https://github.com/expertly-simple/angularevergreen.com/issues"
   },
-  "homepage": "https://github.com/duluca/angularevergreen.com#readme"
+  "homepage": "https://github.com/expertly-simple/angularevergreen.com#readme"
 }
